@@ -1,0 +1,13 @@
+import java.util.concurrent.LinkedTransferQueue;
+public class Main
+{
+	public static void main(String[] args) {
+	    int j=1;
+	    LinkedTransferQueue itq=new LinkedTransferQueue();
+	    for(int i=1;i<=5;i++)
+	    {
+	        itq.add(i);
+	        System.out.println(itq);
+	    }
+	}
+}
