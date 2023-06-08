@@ -1,10 +1,10 @@
-import java.util.ArrayList;
+import java.util.ArrayList; //import java.util.vector;
 import java.util.List;
 import java.util.concurrent.PriorityBlockingQueue;
 public class Main
 {
 	public static void main(String[] args) {
-	    List list=new ArrayList();
+	    List list=new ArrayList(); //we can use vector also inplace of arraylist
 	    list.add(0);
 	    list.add(1);
 	    list.add(2);
