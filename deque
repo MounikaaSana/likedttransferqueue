@@ -1,0 +1,16 @@
+import java.util.ArrayList;
+import java.util.List;
+import java.util.concurrent.LinkedTransferQueue;
+public class Main
+{
+	public static void main(String[] args) {
+	    List list=new ArrayList();
+	    LinkedTransferQueue deque=new LinkedTransferQueue();
+	    deque.add(0);
+	    deque.add(1);
+	    System.out.println(deque);
+	    deque.drainTo(list);
+	    System.out.println("now elements in the queue: "+deque);
+		System.out.println("elements in the list "+list);
+	}
+}
